@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        #container{
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            border:2px solid green;
+            background-color: black;
+            color: #00bcd4;
+
+        }
+        #container > div >ul {
+            display: flex;
+
+        }
+        #container > div >ul > li > a{
+            margin:150px;
+            list-style: none;
+           
+            
+
+        }
+        #container>div>ul{
+            list-style-type: none;
+        }
+        #container > div+div {
+            background-color:rgb(75, 72, 72);
+            width:100%;
+
+        }
+        #container2>div{
+            width:80%;
+            
+
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div>
+            <h1>My Portfolio</h1>
+        </div>
+        <div>
+            <ul>
+                <li><a>Home</a></li>
+                <li><a>Education</a></li>
+                <li><a>Projects</a></li>
+                <li><a>Skills</a></li>
+                <li>Contact Me</li>
+            </ul>
+        </div>
+    </div>
+    <div id="container2">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    
+
+    
+</body>
+</html>
