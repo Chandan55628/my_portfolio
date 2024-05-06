@@ -10,7 +10,7 @@
             display:flex;
             flex-direction: column;
             align-items: center;
-            border:2px solid green;
+            /* border:2px solid green; */
             background-color: black;
             color: #00bcd4;
 
@@ -45,7 +45,7 @@
             display:flex;
             flex-direction: column;
             justify-content: center;
-            border:2px solid red;
+            /* border:2px solid red; */
             padding:45px;
             /* background-color: #f4f4f4; */
             background-color: #f4f4f4;
@@ -62,13 +62,14 @@
             justify-content: space-between;
             align-items: center;
             padding:10px;
-            /* box-shadow: 10px 5px 5px rgb(163, 160, 160); */
+            box-shadow: 2px 1px 1px 2px rgb(163, 160, 160);
             border-radius: 10px;
         }
         #container2>div>div{
             /* border:2px solid blue; */
             display:flex;
             flex-direction: column;
+            flex-wrap: wrap;
         
         
         }
@@ -93,6 +94,17 @@
         #container2>div+div+div+div+div>div>h2{
             color: #2196f3;
         }
+        @media all and (max-width:1023px){
+            #container2>div{
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+            
+        }
+
+           
+        }
+        
 
 
     </style>
